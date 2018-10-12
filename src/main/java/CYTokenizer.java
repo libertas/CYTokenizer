@@ -11,25 +11,7 @@ public abstract class CYTokenizer {
 
     abstract String getPatternString();
 
-    protected Word getWordFromRMatcher(RMatcher m) {
-        String mehsing = m.group(6);
-        String mehyinh;
-        String tone;
-
-        if(m.group(3) != null) {
-            mehyinh = m.group(3);
-        } else {
-            mehyinh = m.group(5);
-        }
-
-        if(m.group(2) != null) {
-            tone = m.group(2);
-        } else {
-            tone = m.group(4);
-        }
-
-        return new Word(mehsing, mehyinh, tone);
-    }
+    abstract Word getWordFromRMatcher(RMatcher m);
 
     public List<Word> tokenize(String input) {
 
