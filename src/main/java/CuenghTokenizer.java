@@ -4,7 +4,7 @@ public class CuenghTokenizer extends CYTokenizer {
     String getPatternString() {
         String mehsing = "(" +
                 "{1,0}[bcdfghlmnrsvy]|" +
-                "by|gy|my|ny|gv|ng|" +
+                "by|gy|my|ny|gv|ng|ngv|" +
                 "nd|mb" +
                 ")";
         String mehyinh1 = "(" +
