@@ -12,7 +12,7 @@ public class BouyeiTokenizer extends CYTokenizer {
                 "eng|en|em|" +
                 "ang|aang|an|aan|am|aam|au|ae|aau|ai|aai|ao|" +
                 "ong|oong|on|oon|om|oom|oi|" +
-                "eeng|eang|en|ean|em|eam|ei|er|" +
+                "eeng|eang|en|een|ean|em|eam|ei|er|" +
                 "ing|iang|in|ian|im|iam|ie|iu|ia|io|iao|" +
                 "ung|uang|un|uan|um|uam|ui|ue|ua|uai" +
                 ")";

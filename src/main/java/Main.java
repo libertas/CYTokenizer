@@ -11,7 +11,7 @@ public class Main {
         }
         System.out.println();
 
-        String line1 = "ndianlxianglbailgeenssoonglducwaljongsduljaizjaalmaalgungshussiangcaulmaalfengzguagdamxjuxmboxminghsiuhndaixroxnauzndeil";
+        String line1 = "ndianlxianglbailgeenssoonglducwaljongsduljaizjalmalgungshussiangc'aulmalfengzguagdamxjuxmboxminghsiuhndaicroxnauzndeil";
         CYTokenizer tokenizer1 = new BouyeiTokenizer();
         List<Word> lw1 = tokenizer1.tokenize(line1);
         for(int i = 0; i < lw1.size(); i++) {
