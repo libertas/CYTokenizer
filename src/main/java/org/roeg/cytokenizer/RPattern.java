@@ -1,4 +1,5 @@
-import java.util.regex.Matcher;
+package org.roeg.cytokenizer;
+
 import java.util.regex.Pattern;
 
 public final class RPattern {

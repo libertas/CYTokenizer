@@ -1,3 +1,5 @@
+package org.roeg.cytokenizer;
+
 public class CuenghTokenizer extends CYTokenizer {
 
     @Override

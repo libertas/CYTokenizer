@@ -1,3 +1,5 @@
+package org.roeg.cytokenizer;
+
 public class Word {
     private String mehsing, mehyinh, tone;
 
