@@ -11,7 +11,7 @@ public class CuenghTokenizer extends CYTokenizer {
                 ")";
         String mehyinh1 = "(" +
                 "[aoewiu]|" +
-                "eng|en|em|ei|" +
+                "eng|en|em|ei|eu|" +
                 "ang|aeng|an|aen|am|aem|au|aw|aeu|ae|ai|" +
                 "ong|oeng|on|oen|om|oem|ou|oi|" +
                 "wng|weng|wn|wen|wm|wem|wi|" +

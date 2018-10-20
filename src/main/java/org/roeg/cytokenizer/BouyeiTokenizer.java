@@ -11,7 +11,7 @@ public class BouyeiTokenizer extends CYTokenizer {
                 ")";
         String mehyinh1 = "(" +
                 "[aoeiu]|" +
-                "eng|en|em|" +
+                "eng|en|em|eeu|" +
                 "ang|aang|an|aan|am|aam|au|ae|aau|ai|aai|ao|" +
                 "ong|oong|on|oon|om|oom|oi|" +
                 "eeng|eang|en|een|ean|em|eam|ei|er|" +
